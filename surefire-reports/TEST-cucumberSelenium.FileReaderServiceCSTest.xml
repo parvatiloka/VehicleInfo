@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberSelenium.FileReaderServiceCSTest" time="433.548" tests="166" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/olusola/Documents/Java/exampleFileReader/target/test-classes:/home/olusola/Documents/Java/exampleFileReader/target/classes:/home/olusola/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/olusola/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/olusola/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/home/olusola/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/olusola/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/olusola/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/olusola/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/olusola/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/olusola/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/olusola/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/olusola/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/olusola/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/olusola/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/olusola/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/olusola/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/olusola/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/olusola/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/olusola/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-server/3.11.0/selenium-server-3.11.0.jar:/home/olusola/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/olusola/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/home/olusola/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/home/olusola/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/olusola/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/home/olusola/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/home/olusola/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.24/cssparser-0.9.24.jar:/home/olusola/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.29/htmlunit-2.29.jar:/home/olusola/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/home/olusola/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.28/neko-htmlunit-2.28.jar:/home/olusola/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/olusola/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.7.v20171121/jetty-repacked-9.4.7.v20171121.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-client/9.4.7.v20170914/jetty-client-9.4.7.v20170914.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-http/9.4.8.v20171121/jetty-http-9.4.8.v20171121.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-io/9.4.8.v20171121/jetty-io-9.4.8.v20171121.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-util/9.4.8.v20171121/jetty-util-9.4.8.v20171121.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.7.v20170914/jetty-xml-9.4.7.v20170914.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.29.0/htmlunit-driver-2.29.0.jar:/home/olusola/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/olusola/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.7.v20170914/websocket-api-9.4.7.v20170914.jar:/home/olusola/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.7.v20170914/websocket-client-9.4.7.v20170914.jar:/home/olusola/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.7.v20170914/websocket-common-9.4.7.v20170914.jar:/home/olusola/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/olusola/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/olusola/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/home/olusola/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/olusola/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/home/olusola/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/olusola/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/olusola/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/olusola/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/olusola/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/olusola/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/olusola/Documents/Java/exampleFileReader/target/surefire/surefirebooter9203432742741267871.jar /home/olusola/Documents/Java/exampleFileReader/target/surefire 2018-05-09T13-10-18_509-jvmRun1 surefire1872834865073842444tmp surefire_01472679611316505664tmp"/>
+    <property name="surefire.test.class.path" value="/home/olusola/Documents/Java/exampleFileReader/target/test-classes:/home/olusola/Documents/Java/exampleFileReader/target/classes:/home/olusola/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/olusola/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/olusola/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/home/olusola/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/olusola/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/olusola/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/olusola/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/olusola/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/olusola/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/olusola/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/olusola/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/olusola/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/olusola/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/olusola/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/olusola/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/olusola/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/olusola/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/olusola/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-server/3.11.0/selenium-server-3.11.0.jar:/home/olusola/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/olusola/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/home/olusola/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/home/olusola/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/olusola/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/home/olusola/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/home/olusola/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.24/cssparser-0.9.24.jar:/home/olusola/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.29/htmlunit-2.29.jar:/home/olusola/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/home/olusola/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.28/neko-htmlunit-2.28.jar:/home/olusola/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/olusola/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.7.v20171121/jetty-repacked-9.4.7.v20171121.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-client/9.4.7.v20170914/jetty-client-9.4.7.v20170914.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-http/9.4.8.v20171121/jetty-http-9.4.8.v20171121.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-io/9.4.8.v20171121/jetty-io-9.4.8.v20171121.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-util/9.4.8.v20171121/jetty-util-9.4.8.v20171121.jar:/home/olusola/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.7.v20170914/jetty-xml-9.4.7.v20170914.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.29.0/htmlunit-driver-2.29.0.jar:/home/olusola/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/olusola/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.7.v20170914/websocket-api-9.4.7.v20170914.jar:/home/olusola/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.7.v20170914/websocket-client-9.4.7.v20170914.jar:/home/olusola/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.7.v20170914/websocket-common-9.4.7.v20170914.jar:/home/olusola/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/olusola/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/olusola/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/home/olusola/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/olusola/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/home/olusola/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/home/olusola/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/olusola/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/olusola/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/olusola/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/olusola/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/olusola/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/olusola"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="basedir" value="/home/olusola/Documents/Java/exampleFileReader"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/olusola/Documents/Java/exampleFileReader/target/surefire/surefirebooter9203432742741267871.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="olusola"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.4.0-122-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/olusola/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2017.1.5"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="/home/olusola/Documents/Java/exampleFileReader"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value=".::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Given the service has 1 files to read in directory testfiles1" classname="| 1 | testfiles1 | 1 |" time="0"/>
+  <testcase name="When the service is evoked" classname="| 1 | testfiles1 | 1 |" time="0.001"/>
+  <testcase name="Then the service will produce a list of size 1" classname="| 1 | testfiles1 | 1 |" time="0"/>
+  <testcase name="| 1 | testfiles1 | 1 |" classname="| 1 | testfiles1 | 1 |" time="0.772"/>
+  <testcase name="Given the service has 2 files to read in directory testfiles2" classname="| 2 | testfiles2 | 2 |" time="0"/>
+  <testcase name="When the service is evoked" classname="| 2 | testfiles2 | 2 |" time="0"/>
+  <testcase name="Then the service will produce a list of size 2" classname="| 2 | testfiles2 | 2 |" time="0"/>
+  <testcase name="| 2 | testfiles2 | 2 |" classname="| 2 | testfiles2 | 2 |" time="0.622"/>
+  <testcase name="Given the service has 3 files to read in directory testfiles3" classname="| 3 | testfiles3 | 3 |" time="0.002"/>
+  <testcase name="When the service is evoked" classname="| 3 | testfiles3 | 3 |" time="0"/>
+  <testcase name="Then the service will produce a list of size 3" classname="| 3 | testfiles3 | 3 |" time="0"/>
+  <testcase name="| 3 | testfiles3 | 3 |" classname="| 3 | testfiles3 | 3 |" time="0.565"/>
+  <testcase name="Given the service has 14 files to read in directory testfiles" classname="| 14 | testfiles | 13 |" time="0"/>
+  <testcase name="When the service is evoked" classname="| 14 | testfiles | 13 |" time="0"/>
+  <testcase name="Then the service will produce a list of size 13" classname="| 14 | testfiles | 13 |" time="0"/>
+  <testcase name="| 14 | testfiles | 13 |" classname="| 14 | testfiles | 13 |" time="0.553"/>
+  <testcase name="Given the service has 1 files to read in directory testfiles1" classname="| 1 | testfiles1 | NG07NNT | file1.csv |" time="0"/>
+  <testcase name="When the service is evoked" classname="| 1 | testfiles1 | NG07NNT | file1.csv |" time="0"/>
+  <testcase name="And the registration number NG07NNT from file1.csv is entered into the website" classname="| 1 | testfiles1 | NG07NNT | file1.csv |" time="0"/>
+  <testcase name="Then the website details will match the service with make of FORD with a colour of BLUE" classname="| 1 | testfiles1 | NG07NNT | file1.csv |" time="0"/>
+  <testcase name="| 1 | testfiles1 | NG07NNT | file1.csv |" classname="| 1 | testfiles1 | NG07NNT | file1.csv |" time="0.644"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file1.csv | NG07NNT | found | FORD | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file1.csv | NG07NNT | found | FORD | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file1.csv is entered into the website inturn" classname="| file1.csv | NG07NNT | found | FORD | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration NG07NNT will be found the exact vehicle make FORD with colour BLUE" classname="| file1.csv | NG07NNT | found | FORD | BLUE |" time="0"/>
+  <testcase name="| file1.csv | NG07NNT | found | FORD | BLUE |" classname="| file1.csv | NG07NNT | found | FORD | BLUE |" time="0.65"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file2.csv | GX18HBL | found | AUDI | BLACK |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file2.csv | GX18HBL | found | AUDI | BLACK |" time="0"/>
+  <testcase name="And registration numbers from each file with file2.csv is entered into the website inturn" classname="| file2.csv | GX18HBL | found | AUDI | BLACK |" time="0"/>
+  <testcase name="Then the website details for registration GX18HBL will be found the exact vehicle make AUDI with colour BLACK" classname="| file2.csv | GX18HBL | found | AUDI | BLACK |" time="0.001"/>
+  <testcase name="| file2.csv | GX18HBL | found | AUDI | BLACK |" classname="| file2.csv | GX18HBL | found | AUDI | BLACK |" time="0.657"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file3.csv | V765DPR | not found | HYUNDAI | SILVER |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file3.csv | V765DPR | not found | HYUNDAI | SILVER |" time="0"/>
+  <testcase name="And registration numbers from each file with file3.csv is entered into the website inturn" classname="| file3.csv | V765DPR | not found | HYUNDAI | SILVER |" time="0.001"/>
+  <testcase name="Then the website details for registration V765DPR will be not found the exact vehicle make HYUNDAI with colour SILVER" classname="| file3.csv | V765DPR | not found | HYUNDAI | SILVER |" time="0.001"/>
+  <testcase name="| file3.csv | V765DPR | not found | HYUNDAI | SILVER |" classname="| file3.csv | V765DPR | not found | HYUNDAI | SILVER |" time="0.642"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file4.csv | GJ13EBK | found | HONDA | RED |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file4.csv | GJ13EBK | found | HONDA | RED |" time="0.001"/>
+  <testcase name="And registration numbers from each file with file4.csv is entered into the website inturn" classname="| file4.csv | GJ13EBK | found | HONDA | RED |" time="0"/>
+  <testcase name="Then the website details for registration GJ13EBK will be found the exact vehicle make HONDA with colour RED" classname="| file4.csv | GJ13EBK | found | HONDA | RED |" time="0"/>
+  <testcase name="| file4.csv | GJ13EBK | found | HONDA | RED |" classname="| file4.csv | GJ13EBK | found | HONDA | RED |" time="0.65"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file5.csv | LA12GZC | found | NISSAN | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file5.csv | LA12GZC | found | NISSAN | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file5.csv is entered into the website inturn" classname="| file5.csv | LA12GZC | found | NISSAN | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration LA12GZC will be found the exact vehicle make NISSAN with colour BLUE" classname="| file5.csv | LA12GZC | found | NISSAN | BLUE |" time="0"/>
+  <testcase name="| file5.csv | LA12GZC | found | NISSAN | BLUE |" classname="| file5.csv | LA12GZC | found | NISSAN | BLUE |" time="0.656"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file6.csv | GJ13EBX | found | CITROEN | WHITE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file6.csv | GJ13EBX | found | CITROEN | WHITE |" time="0"/>
+  <testcase name="And registration numbers from each file with file6.csv is entered into the website inturn" classname="| file6.csv | GJ13EBX | found | CITROEN | WHITE |" time="0"/>
+  <testcase name="Then the website details for registration GJ13EBX will be found the exact vehicle make CITROEN with colour WHITE" classname="| file6.csv | GJ13EBX | found | CITROEN | WHITE |" time="0"/>
+  <testcase name="| file6.csv | GJ13EBX | found | CITROEN | WHITE |" classname="| file6.csv | GJ13EBX | found | CITROEN | WHITE |" time="0.647"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file7.csv | YS59ABZ | found | BMW | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file7.csv | YS59ABZ | found | BMW | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file7.csv is entered into the website inturn" classname="| file7.csv | YS59ABZ | found | BMW | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration YS59ABZ will be found the exact vehicle make BMW with colour BLUE" classname="| file7.csv | YS59ABZ | found | BMW | BLUE |" time="0.001"/>
+  <testcase name="| file7.csv | YS59ABZ | found | BMW | BLUE |" classname="| file7.csv | YS59ABZ | found | BMW | BLUE |" time="0.652"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file8.csv | P1LOT | found | BMW | BLACK |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file8.csv | P1LOT | found | BMW | BLACK |" time="0"/>
+  <testcase name="And registration numbers from each file with file8.csv is entered into the website inturn" classname="| file8.csv | P1LOT | found | BMW | BLACK |" time="0.001"/>
+  <testcase name="Then the website details for registration P1LOT will be found the exact vehicle make BMW with colour BLACK" classname="| file8.csv | P1LOT | found | BMW | BLACK |" time="0"/>
+  <testcase name="| file8.csv | P1LOT | found | BMW | BLACK |" classname="| file8.csv | P1LOT | found | BMW | BLACK |" time="0.652"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file9.csv | PK66PFF | found | MINI | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file9.csv | PK66PFF | found | MINI | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file9.csv is entered into the website inturn" classname="| file9.csv | PK66PFF | found | MINI | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration PK66PFF will be found the exact vehicle make MINI with colour BLUE" classname="| file9.csv | PK66PFF | found | MINI | BLUE |" time="0"/>
+  <testcase name="| file9.csv | PK66PFF | found | MINI | BLUE |" classname="| file9.csv | PK66PFF | found | MINI | BLUE |" time="0.644"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file10.csv | RK66PFF | found | AUDI | WHITE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file10.csv | RK66PFF | found | AUDI | WHITE |" time="0"/>
+  <testcase name="And registration numbers from each file with file10.csv is entered into the website inturn" classname="| file10.csv | RK66PFF | found | AUDI | WHITE |" time="0.002"/>
+  <testcase name="Then the website details for registration RK66PFF will be found the exact vehicle make AUDI with colour WHITE" classname="| file10.csv | RK66PFF | found | AUDI | WHITE |" time="0"/>
+  <testcase name="| file10.csv | RK66PFF | found | AUDI | WHITE |" classname="| file10.csv | RK66PFF | found | AUDI | WHITE |" time="0.652"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file11.csv | 1234567 | error | BMW | ORANGE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file11.csv | 1234567 | error | BMW | ORANGE |" time="0.001"/>
+  <testcase name="And registration numbers from each file with file11.csv is entered into the website inturn" classname="| file11.csv | 1234567 | error | BMW | ORANGE |" time="0"/>
+  <testcase name="Then the website details for registration 1234567 will be error the exact vehicle make BMW with colour ORANGE" classname="| file11.csv | 1234567 | error | BMW | ORANGE |" time="0"/>
+  <testcase name="| file11.csv | 1234567 | error | BMW | ORANGE |" classname="| file11.csv | 1234567 | error | BMW | ORANGE |" time="0.541"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file12.csv | GX18HBK | found | AUDI | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file12.csv | GX18HBK | found | AUDI | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file12.csv is entered into the website inturn" classname="| file12.csv | GX18HBK | found | AUDI | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration GX18HBK will be found the exact vehicle make AUDI with colour BLUE" classname="| file12.csv | GX18HBK | found | AUDI | BLUE |" time="0"/>
+  <testcase name="| file12.csv | GX18HBK | found | AUDI | BLUE |" classname="| file12.csv | GX18HBK | found | AUDI | BLUE |" time="0.646"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file14.csv | NG08NNT | found | FORD | BLACK |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file14.csv | NG08NNT | found | FORD | BLACK |" time="0"/>
+  <testcase name="And registration numbers from each file with file14.csv is entered into the website inturn" classname="| file14.csv | NG08NNT | found | FORD | BLACK |" time="0"/>
+  <testcase name="Then the website details for registration NG08NNT will be found the exact vehicle make FORD with colour BLACK" classname="| file14.csv | NG08NNT | found | FORD | BLACK |" time="0"/>
+  <testcase name="| file14.csv | NG08NNT | found | FORD | BLACK |" classname="| file14.csv | NG08NNT | found | FORD | BLACK |" time="0.664"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file1.csv | NG07NNT | FORD | BLUE | match | FORD | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file1.csv | NG07NNT | FORD | BLUE | match | FORD | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file1.csv is entered into the website inturn" classname="| file1.csv | NG07NNT | FORD | BLUE | match | FORD | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration NG07NNT with make of FORD with a colour of BLUE  will match the service with make of FORD with a colour of BLUE" classname="| file1.csv | NG07NNT | FORD | BLUE | match | FORD | BLUE |" time="0"/>
+  <testcase name="| file1.csv | NG07NNT | FORD | BLUE | match | FORD | BLUE |" classname="| file1.csv | NG07NNT | FORD | BLUE | match | FORD | BLUE |" time="0.655"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file2.csv | GX18HBL | AUDI | BLACK | match | AUDI | BLACK |" time="0.001"/>
+  <testcase name="When the service is evoked" classname="| file2.csv | GX18HBL | AUDI | BLACK | match | AUDI | BLACK |" time="0"/>
+  <testcase name="And registration numbers from each file with file2.csv is entered into the website inturn" classname="| file2.csv | GX18HBL | AUDI | BLACK | match | AUDI | BLACK |" time="0"/>
+  <testcase name="Then the website details for registration GX18HBL with make of AUDI with a colour of BLACK  will match the service with make of AUDI with a colour of BLACK" classname="| file2.csv | GX18HBL | AUDI | BLACK | match | AUDI | BLACK |" time="0"/>
+  <testcase name="| file2.csv | GX18HBL | AUDI | BLACK | match | AUDI | BLACK |" classname="| file2.csv | GX18HBL | AUDI | BLACK | match | AUDI | BLACK |" time="0.648"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file3.csv | V765DPR | HYUNDAI | SILVER | not match | HYUNDAI | SILVER |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file3.csv | V765DPR | HYUNDAI | SILVER | not match | HYUNDAI | SILVER |" time="0"/>
+  <testcase name="And registration numbers from each file with file3.csv is entered into the website inturn" classname="| file3.csv | V765DPR | HYUNDAI | SILVER | not match | HYUNDAI | SILVER |" time="0"/>
+  <testcase name="Then the website details for registration V765DPR with make of HYUNDAI with a colour of SILVER  will not match the service with make of HYUNDAI with a colour of SILVER" classname="| file3.csv | V765DPR | HYUNDAI | SILVER | not match | HYUNDAI | SILVER |" time="0"/>
+  <testcase name="| file3.csv | V765DPR | HYUNDAI | SILVER | not match | HYUNDAI | SILVER |" classname="| file3.csv | V765DPR | HYUNDAI | SILVER | not match | HYUNDAI | SILVER |" time="0.651"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file4.csv | GJ13EBK | HONDA | RED | match | HONDA | RED |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file4.csv | GJ13EBK | HONDA | RED | match | HONDA | RED |" time="0"/>
+  <testcase name="And registration numbers from each file with file4.csv is entered into the website inturn" classname="| file4.csv | GJ13EBK | HONDA | RED | match | HONDA | RED |" time="0"/>
+  <testcase name="Then the website details for registration GJ13EBK with make of HONDA with a colour of RED  will match the service with make of HONDA with a colour of RED" classname="| file4.csv | GJ13EBK | HONDA | RED | match | HONDA | RED |" time="0"/>
+  <testcase name="| file4.csv | GJ13EBK | HONDA | RED | match | HONDA | RED |" classname="| file4.csv | GJ13EBK | HONDA | RED | match | HONDA | RED |" time="0.641"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file5.csv | LA12GZC | NISSAN | BLUE | match | NISSAN | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file5.csv | LA12GZC | NISSAN | BLUE | match | NISSAN | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file5.csv is entered into the website inturn" classname="| file5.csv | LA12GZC | NISSAN | BLUE | match | NISSAN | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration LA12GZC with make of NISSAN with a colour of BLUE  will match the service with make of NISSAN with a colour of BLUE" classname="| file5.csv | LA12GZC | NISSAN | BLUE | match | NISSAN | BLUE |" time="0"/>
+  <testcase name="| file5.csv | LA12GZC | NISSAN | BLUE | match | NISSAN | BLUE |" classname="| file5.csv | LA12GZC | NISSAN | BLUE | match | NISSAN | BLUE |" time="0.655"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file6.csv | GJ13EBX | CITROEN | WHITE | match | CITROEN | WHITE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file6.csv | GJ13EBX | CITROEN | WHITE | match | CITROEN | WHITE |" time="0"/>
+  <testcase name="And registration numbers from each file with file6.csv is entered into the website inturn" classname="| file6.csv | GJ13EBX | CITROEN | WHITE | match | CITROEN | WHITE |" time="0"/>
+  <testcase name="Then the website details for registration GJ13EBX with make of CITROEN with a colour of WHITE  will match the service with make of CITROEN with a colour of WHITE" classname="| file6.csv | GJ13EBX | CITROEN | WHITE | match | CITROEN | WHITE |" time="0"/>
+  <testcase name="| file6.csv | GJ13EBX | CITROEN | WHITE | match | CITROEN | WHITE |" classname="| file6.csv | GJ13EBX | CITROEN | WHITE | match | CITROEN | WHITE |" time="0.766"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file7.csv | YS59ABZ | BMW | BLUE | match | BMW | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file7.csv | YS59ABZ | BMW | BLUE | match | BMW | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file7.csv is entered into the website inturn" classname="| file7.csv | YS59ABZ | BMW | BLUE | match | BMW | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration YS59ABZ with make of BMW with a colour of BLUE  will match the service with make of BMW with a colour of BLUE" classname="| file7.csv | YS59ABZ | BMW | BLUE | match | BMW | BLUE |" time="0"/>
+  <testcase name="| file7.csv | YS59ABZ | BMW | BLUE | match | BMW | BLUE |" classname="| file7.csv | YS59ABZ | BMW | BLUE | match | BMW | BLUE |" time="0.649"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file8.csv | P1LOT | BMW | BLACK | match | BMW | BLACK |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file8.csv | P1LOT | BMW | BLACK | match | BMW | BLACK |" time="0"/>
+  <testcase name="And registration numbers from each file with file8.csv is entered into the website inturn" classname="| file8.csv | P1LOT | BMW | BLACK | match | BMW | BLACK |" time="0"/>
+  <testcase name="Then the website details for registration P1LOT with make of BMW with a colour of BLACK  will match the service with make of BMW with a colour of BLACK" classname="| file8.csv | P1LOT | BMW | BLACK | match | BMW | BLACK |" time="0.001"/>
+  <testcase name="| file8.csv | P1LOT | BMW | BLACK | match | BMW | BLACK |" classname="| file8.csv | P1LOT | BMW | BLACK | match | BMW | BLACK |" time="0.652"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file9.csv | PK66PFF | MINI | BLUE | match | MINI | BLUE |" time="0.001"/>
+  <testcase name="When the service is evoked" classname="| file9.csv | PK66PFF | MINI | BLUE | match | MINI | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file9.csv is entered into the website inturn" classname="| file9.csv | PK66PFF | MINI | BLUE | match | MINI | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration PK66PFF with make of MINI with a colour of BLUE  will match the service with make of MINI with a colour of BLUE" classname="| file9.csv | PK66PFF | MINI | BLUE | match | MINI | BLUE |" time="0"/>
+  <testcase name="| file9.csv | PK66PFF | MINI | BLUE | match | MINI | BLUE |" classname="| file9.csv | PK66PFF | MINI | BLUE | match | MINI | BLUE |" time="0.64"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file10.csv | RK66PFF | AUDI | WHITE | match | AUDI | WHITE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file10.csv | RK66PFF | AUDI | WHITE | match | AUDI | WHITE |" time="0"/>
+  <testcase name="And registration numbers from each file with file10.csv is entered into the website inturn" classname="| file10.csv | RK66PFF | AUDI | WHITE | match | AUDI | WHITE |" time="0"/>
+  <testcase name="Then the website details for registration RK66PFF with make of AUDI with a colour of WHITE  will match the service with make of AUDI with a colour of WHITE" classname="| file10.csv | RK66PFF | AUDI | WHITE | match | AUDI | WHITE |" time="0"/>
+  <testcase name="| file10.csv | RK66PFF | AUDI | WHITE | match | AUDI | WHITE |" classname="| file10.csv | RK66PFF | AUDI | WHITE | match | AUDI | WHITE |" time="0.653"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file11.csv | 1234567 | BMW | ORANGE | error | BMW | ORANGE |" time="0.001"/>
+  <testcase name="When the service is evoked" classname="| file11.csv | 1234567 | BMW | ORANGE | error | BMW | ORANGE |" time="0"/>
+  <testcase name="And registration numbers from each file with file11.csv is entered into the website inturn" classname="| file11.csv | 1234567 | BMW | ORANGE | error | BMW | ORANGE |" time="0"/>
+  <testcase name="Then the website details for registration 1234567 with make of BMW with a colour of ORANGE  will error the service with make of BMW with a colour of ORANGE" classname="| file11.csv | 1234567 | BMW | ORANGE | error | BMW | ORANGE |" time="0"/>
+  <testcase name="| file11.csv | 1234567 | BMW | ORANGE | error | BMW | ORANGE |" classname="| file11.csv | 1234567 | BMW | ORANGE | error | BMW | ORANGE |" time="0.651"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file12.csv | GX18HBK | AUDI | BLUE | not be found | BMW | BLUE |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file12.csv | GX18HBK | AUDI | BLUE | not be found | BMW | BLUE |" time="0"/>
+  <testcase name="And registration numbers from each file with file12.csv is entered into the website inturn" classname="| file12.csv | GX18HBK | AUDI | BLUE | not be found | BMW | BLUE |" time="0"/>
+  <testcase name="Then the website details for registration GX18HBK with make of AUDI with a colour of BLUE  will not be found the service with make of BMW with a colour of BLUE" classname="| file12.csv | GX18HBK | AUDI | BLUE | not be found | BMW | BLUE |" time="0.001"/>
+  <testcase name="| file12.csv | GX18HBK | AUDI | BLUE | not be found | BMW | BLUE |" classname="| file12.csv | GX18HBK | AUDI | BLUE | not be found | BMW | BLUE |" time="0.657"/>
+  <testcase name="Given the service reads files from directory testfiles" classname="| file14.csv | NG08NNT | FORD | BLACK | match | FORD | BLACK |" time="0"/>
+  <testcase name="When the service is evoked" classname="| file14.csv | NG08NNT | FORD | BLACK | match | FORD | BLACK |" time="0"/>
+  <testcase name="And registration numbers from each file with file14.csv is entered into the website inturn" classname="| file14.csv | NG08NNT | FORD | BLACK | match | FORD | BLACK |" time="0"/>
+  <testcase name="Then the website details for registration NG08NNT with make of FORD with a colour of BLACK  will match the service with make of FORD with a colour of BLACK" classname="| file14.csv | NG08NNT | FORD | BLACK | match | FORD | BLACK |" time="0"/>
+  <testcase name="| file14.csv | NG08NNT | FORD | BLACK | match | FORD | BLACK |" classname="| file14.csv | NG08NNT | FORD | BLACK | match | FORD | BLACK |" time="0.766"/>
+  <testcase name="Given I am a user of the website" classname="Scenario: The user enters a correctly formated registration plate" time="0"/>
+  <testcase name="When I enter a correct registration plate of NG07NNT" classname="Scenario: The user enters a correctly formated registration plate" time="0.001"/>
+  <testcase name="And press continue" classname="Scenario: The user enters a correctly formated registration plate" time="0"/>
+  <testcase name="Then I will receive the correct make as FORD and colour of car as BLUE" classname="Scenario: The user enters a correctly formated registration plate" time="0"/>
+  <testcase name="Scenario: The user enters a correctly formated registration plate" classname="Scenario: The user enters a correctly formated registration plate" time="0.661"/>
+  <testcase name="Given I am a user of the website" classname="Scenario: The user enters a invalid registration plate" time="0.001"/>
+  <testcase name="When I enter a correctly formatted invalid registration plate of V765DPR" classname="Scenario: The user enters a invalid registration plate" time="0.001"/>
+  <testcase name="And press continue" classname="Scenario: The user enters a invalid registration plate" time="0"/>
+  <testcase name="Then I will be taken to an error page" classname="Scenario: The user enters a invalid registration plate" time="0"/>
+  <testcase name="Scenario: The user enters a invalid registration plate" classname="Scenario: The user enters a invalid registration plate" time="0.661"/>
+  <testcase name="Given I am a user of the website" classname="Scenario: The user enters an incorrectly formatted registration plate" time="0"/>
+  <testcase name="When I enter a incorrectly formatted registraton plate of AB343467" classname="Scenario: The user enters an incorrectly formatted registration plate" time="0"/>
+  <testcase name="And press continue" classname="Scenario: The user enters an incorrectly formatted registration plate" time="0"/>
+  <testcase name="Then I will receive an error messsage on the same page" classname="Scenario: The user enters an incorrectly formatted registration plate" time="0"/>
+  <testcase name="Scenario: The user enters an incorrectly formatted registration plate" classname="Scenario: The user enters an incorrectly formatted registration plate" time="0.754"/>
+</testsuite>
